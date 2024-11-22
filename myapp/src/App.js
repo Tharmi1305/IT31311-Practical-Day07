@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import Childcom from './ChildComp';
 
 function App() {
   const [childname,setChildname]=useState("Default");
